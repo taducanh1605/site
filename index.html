@@ -219,7 +219,7 @@
   </div>
   <div class="shadow-1-strong bg-white my-5 p-5" id="experience">
     <div class="work-experience-section">
-      <h2 class="h2 fw-light mb-4">Experience</h2>
+      <h2 class="h2 fw-light mb-4">Experience</h2><hr/>
       <div class="timeline">
         <div class="timeline-card timeline-card-info" data-aos="fade-in" data-aos-delay="0">
           <div class="timeline-head px-4 pt-3">
@@ -266,7 +266,7 @@
   </div>
   <div class="shadow-1-strong bg-white my-5 p-5" id="education">
     <div class="education-section">
-      <h2 class="h2 fw-light mb-4">Education</h2>
+      <h2 class="h2 fw-light mb-4">Education</h2><hr/>
       <div class="timeline">
         <div class="timeline-card timeline-card-success" data-aos="fade-in" data-aos-delay="0">
           <div class="timeline-head px-4 pt-3">
@@ -307,28 +307,31 @@
   <div class="shadow-1-strong bg-white my-5 p-5 d-print-none" id="pro-app">
     <div class="portfolio-section">
       <h2 class="h2 fw-light mb-4">Project - Application</h2>
-      <div class="row g-0">
-        <div class="col-md-6"><a href="https://github.com/taducanh1605/GCN_DL_Learner" target="_blank"><img class="img-fluid" src="images/model_RGCN.png" width="800" height="500"/></a></div>
+      <hr/>
+	  <div class="row g-0">
+        <div class="col-md-6"><a href="https://github.com/taducanh1605/GCN_DL_Learner" target="_blank"><img class="img-fluid img-RGCN" src="images/model_RGCN.png" width="800" height="500"/></a></div>
         <div class="col-md-6 d-flex align-items-center" data-aos="fade-left" data-aos-delay="100">
           <div class="m-4 mt-md-2">
             <p class="text-teal text-small">R-GCN / OWL / NLP / Python</p>
             <h3>Automatic Completion of Ontologies: Case of Instances</h3>
-            <p class="text-muted">Contributing a framework (implemented by Python and Java) to detect and discover the new knowledge (leveraging Inductive Logic Programming). A convolutional network on the graph (R-GCN) is built by TensorFlow and PyTorch. Our R-GCN model classifies multi-labels with a template proposed. Dataset is the ABox assertion (individuals) originated from Ontology (OWL – using OWLReady2 library). Our Dataset was pre-processed by techniques of Natural Language Processing (NLP). The final result improved via the AdaBoost Algorithm.</p>
+            <p class="text-muted">The main objective was to discover the relationships between entities to complete the ontology. Based on this target, the model has 2 parts: complete ABox and complete TBox. My main contribution in this first work focuses on the completion of the ABox. I performed the preprocessing of the ontology as well as the encoding of the feature vectors to be used in parts 1 and 2 of the framework. I also built a model which predicts / exploit / discover new ontology roles via the GCN model in 2 different methods and they give potential results. Finally, a table of experimental results is contributed to evaluate the model as well as to select the methods used.</p>
 			<p><a href="https://github.com/taducanh1605/GCN_DL_Learner">Github link</a></p>
           </div>
         </div>
       </div>
+	  <hr/>
       <div class="row g-0 portfolio-reverse">
         <div class="col-md-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
           <div class="m-4 mt-md-2 text-end">
             <p class="text-teal text-small">Tkinter / Multithreaded / Python</p>
             <h3>Assistant application for Online Coaching Fitness (OCF)</h3>
-            <p class="text-muted">Description...</p>
+            <p class="text-muted">A support application for gym / calisthenic users. The application supports storing the user's workout history to track exercise progress. During exercise, the application supports direct monitoring of exercises and breaks in the exercise program. Personal trainers (PT) can create a reasonable exercise program for each person that is suitable for each person.</p>
 			<p><a href="https://github.com/taducanh1605/Gym-Calisthenic">Github link</a></p>
           </div>
         </div>
         <div class="col-md-6"><a href="https://github.com/taducanh1605/Gym-Calisthenic" target="_blank"><img class="img-fluid" src="images/trainning.png" width="800" height="500"/></a></div>
       </div>
+	  <hr/>
       <div class="row g-0">
         <div class="col-md-6"><a href="https://github.com/researchteamkt/VietnameseFestivalApp" target="_blank"><img class="img-fluid" src="images/Fes_AI_app.png" width="800" height="500"/></a></div>
         <div class="col-md-6 d-flex align-items-center" data-aos="fade-left" data-aos-delay="100">
@@ -339,6 +342,17 @@
 			<p><a href="https://github.com/researchteamkt/VietnameseFestivalApp">Github link</a></p>
           </div>
         </div>
+      </div>
+	  <hr/>
+	  <div class="row g-0 portfolio-reverse">
+        <div class="col-md-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
+          <div class="m-4 mt-md-2 text-end">
+            <p class="text-teal text-small">Arduino/ C/C++ / Sim900A/ NodeJS/ MongoDB</p>
+            <h3>IoT Environment Monitoring</h3>
+            <p class="text-muted">Taking advantage of Control Engineering and Automation to build an Environment Monitoring system. Contributing three main parts: (1) Building a NoSQL Database (using MongoDB); (2) Developing a Webserver (by NodeJS) to collect and process the data from Environmental Monitoring Device (EMD); (3) Creating the EMD and collecting data via sensors (by Arduino) and transport them back to Webserver by Internet (using Module Sim900A).</p>
+          </div>
+        </div>
+        <div class="col-md-6"><img class="img-fluid" src="images/projectVNQTMT.png" width="800" height="500"/></div>
       </div>
     </div>
   </div>
